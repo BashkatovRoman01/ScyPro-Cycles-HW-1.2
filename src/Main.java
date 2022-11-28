@@ -45,5 +45,17 @@ public class Main {
             savings1 += savings1 * percent1;
             System.out.println("За месяц " + countMonth1 + " сумма накоплений составит " + savings1);
         }
+        //Задание 5
+        System.out.println("Задание 5");
+        int goal2 = 12_000_000;
+        int countMonth2 = 0;
+        int savings2 = 15000;
+        double percent2 = 0.07;
+        for (; savings2 < goal2; countMonth2++) {
+            savings2 += savings2 * percent2;
+            if (countMonth2 % 6 == 0) {
+                System.out.println("За месяц " + countMonth2 + " сумма накоплений составит " + savings2);
+            }
+        }
     }
 }
