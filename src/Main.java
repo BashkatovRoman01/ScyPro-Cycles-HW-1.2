@@ -66,5 +66,12 @@ public class Main {
             savings3 += savings3 * percent3;
             System.out.println("За месяц " + firstMonth + " сумма накоплений составит " + savings3);
         }
+        //Задание 7
+        System.out.println("Задание 7");
+        int firstFriday=5;
+        for (int day=firstFriday; day<=31; day=day+7) {
+            System.out.println("Сегодня пятница,"+day+ " -е число. Необходимо подготовить отчет.");
+        }
+
     }
 }
