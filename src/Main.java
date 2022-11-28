@@ -15,6 +15,15 @@ public class Main {
             countMonth++;
         }
         System.out.println("Месяц " + countMonth + ", сумма накоплений равна " + savings + " рублей");
-
+        //Задание 2
+        System.out.println("Задание 2");
+        int a = 1;
+        while (a <= 10) {
+            System.out.println(a);
+            a++;
+        }
+        for (int i = 10; i >= 0; i--) {
+            System.out.println(i);
+        }
     }
 }
