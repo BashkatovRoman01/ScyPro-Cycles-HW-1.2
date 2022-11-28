@@ -57,5 +57,14 @@ public class Main {
                 System.out.println("За месяц " + countMonth2 + " сумма накоплений составит " + savings2);
             }
         }
+        //Задание 6
+        System.out.println("Задание 6");
+        int firstMonth = 0;
+        int savings3 = 15000;
+        double percent3 = 0.07;
+        for (; firstMonth <= 9 * 12; firstMonth++) {
+            savings3 += savings3 * percent3;
+            System.out.println("За месяц " + firstMonth + " сумма накоплений составит " + savings3);
+        }
     }
 }
