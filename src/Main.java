@@ -72,6 +72,20 @@ public class Main {
         for (int day=firstFriday; day<=31; day=day+7) {
             System.out.println("Сегодня пятница,"+day+ " -е число. Необходимо подготовить отчет.");
         }
+        //Задание 8
+        System.out.println("Задание 8");
+        int firstYear = 0;
+        int year=firstYear;
+        int thisYear = 2022;
+        int startObservationYear = thisYear - 200;
+        int finishObservationYear = thisYear + 100;
+        int period = 79;
+        while (year <= finishObservationYear) {
+            if (year >= startObservationYear) {
+                System.out.println(year);
+            }
+            year += period;
+        }
 
     }
 }
