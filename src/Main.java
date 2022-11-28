@@ -35,5 +35,15 @@ public class Main {
             population = population * populationIncrease / 1000;
             System.out.println("Год " + year + ", численность населения составляет " + population);
         }
+        //Задание 4
+        System.out.println("Задание 4");
+        int goal1 = 12_000_000;
+        int countMonth1 = 0;
+        int savings1 = 15000;
+        double percent1 = 0.07;
+        for (; savings1 < goal1; countMonth1++) {
+            savings1 += savings1 * percent1;
+            System.out.println("За месяц " + countMonth1 + " сумма накоплений составит " + savings1);
+        }
     }
 }
